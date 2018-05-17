@@ -45,7 +45,7 @@ class Calculator
         end
 
         def cubert
-           @number = @number ** (1/3)
+           @number = Math.cbrt(@number)
            p @number
         end
 
