@@ -1,3 +1,5 @@
+require 'simplecov'
+SimpleCov.start
 require "bundler/setup"
 require_relative "../lib/calculator/calculator_util"
 require_relative "../lib/calculator/parser"
